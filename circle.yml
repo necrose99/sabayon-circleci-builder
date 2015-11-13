@@ -5,7 +5,7 @@ dependencies:
   cache_directories:
     - ~/.bosonstate
   override:
-    - if [ -n "$BUILD_ARGS" ]; then docker run -t sabayon/builder-amd64 /builder $BUILD_ARGS; fi
+    - if [ -n "$BUILD_ARGS" ]; then docker pull sabayon/builder-amd64; fi
 test:
   override:
     - if [ -n "$BUILD_ARGS" ]; then docker run -v $CIRCLE_ARTIFACTS/:/usr/portage/packages -t sabayon/builder-amd64 $BUILD_ARGS; fi
