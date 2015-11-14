@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -o nounset
+set -o errexit
 
 if [ -n "$BUILD_ARGS" ]; then
 docker run \
