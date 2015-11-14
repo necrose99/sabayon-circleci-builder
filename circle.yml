@@ -8,7 +8,7 @@ dependencies:
     - if [ -n "$BUILD_ARGS" ]; then docker pull sabayon/builder-amd64; fi
 test:
   override:
-    - ./scripts/test.sh
+    - if [ -n "$BUILD_ARGS" ]; then ./scripts/test.sh; fi
 deployment:
   production:
     branch: master
