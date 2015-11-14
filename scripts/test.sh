@@ -3,7 +3,7 @@
 set -o nounset
 set -o errexit
 
-docker run -e BUILDER_PROFILE -e BUILDER_JOBS -e PRESERVED_REBUILD -e EMERGE_DEFAULTS_ARGS \
+docker run -e BUILDER_PROFILE -e BUILDER_JOBS -e PRESERVED_REBUILD -e EMERGE_DEFAULTS_ARGS -e USE_EQUO \
 		-v $CIRCLE_ARTIFACTS/:/usr/portage/packages \
 		-v "$HOME/$CIRCLE_PROJECT_REPONAME"/conf/custom.keywords:/opt/sabayon-build/conf/intel/portage/package.keywords/custom.keywords \
 		-v "$HOME/$CIRCLE_PROJECT_REPONAME"/conf/custom.unmask:/opt/sabayon-build/conf/intel/portage/package.unmask/custom.unmask \
