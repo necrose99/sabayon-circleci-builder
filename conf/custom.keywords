@@ -2,3 +2,9 @@
 
 =app-exploits/weevely-1.1 ~amd64
 
+# required by @selected
+
+# required by @world (argument)
+
+=app-editors/atom-1.2.0 ~amd64
+
