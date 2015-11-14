@@ -8,7 +8,7 @@ dependencies:
     - if [ -n "$BUILD_ARGS" ]; then docker pull sabayon/builder-amd64; fi
 test:
   override:
-    - if [ -n "$BUILD_ARGS" ]; then docker run -e BUILDER_PROFILE -e BUILDER_JOBS -e PRESERVED_REBUILD -e EMERGE_DEFAULTS_ARGS -v $CIRCLE_ARTIFACTS/:/usr/portage/packages -t sabayon/builder-amd64 $BUILD_ARGS; fi
+    - ./scripts/test.sh
 deployment:
   production:
     branch: master

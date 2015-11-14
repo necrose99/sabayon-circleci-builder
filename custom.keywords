@@ -1,0 +1,4 @@
+# required by app-exploits/weevely (argument)
+
+=app-exploits/weevely-1.1 ~amd64
+
