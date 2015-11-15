@@ -8,7 +8,7 @@ dependencies:
   override:
     - if [[ -e ~/docker/image.tar ]]; then docker load -i ~/docker/image.tar; else docker pull sabayon/builder-amd64; fi
     - if [ -n "$BUILD_ARGS" ]; then ./scripts/test.sh; fi
-    - if [ -n "$BUILD_ARGS" ]; mkdir -p ~/docker; docker save sabayon/builder-amd64 > ~/docker/image.tar; fi
+    - if [ -n "$BUILD_ARGS" ]; then mkdir -p ~/docker; docker save sabayon/builder-amd64 > ~/docker/image.tar; fi
 test:
   override:
     - docker run -t sabayon/builder-amd64 true || true
