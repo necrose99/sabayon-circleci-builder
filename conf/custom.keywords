@@ -8,3 +8,219 @@
 
 =app-editors/atom-1.2.0 ~amd64
 
+
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-base/mate-settings-daemon-1.12.0 ~amd64
+
+# required by mate-extra/mate-power-manager-1.12.0::rinaldus-overlay[policykit]
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay[extras]
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-extra/mate-polkit-1.12.0 ~amd64
+
+# required by @selected
+
+# required by @world (argument)
+
+=x11-wm/marco-1.12.0 ~amd64
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay[base]
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-base/mate-control-center-1.12.0 ~amd64
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-base/mate-session-manager-1.12.0 ~amd64
+
+# required by @selected
+
+# required by @world (argument)
+
+=x11-themes/mate-themes-1.12.0 ~amd64
+
+# required by x11-misc/mozo-1.12.0::rinaldus-overlay
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay[base]
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-base/mate-menus-1.12.0 ~amd64
+
+# required by @selected
+
+# required by @world (argument)
+
+=app-arch/engrampa-1.12.0 ~amd64
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay[extras]
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-extra/mate-utils-1.12.0 ~amd64
+
+# required by @selected
+
+# required by @world (argument)
+
+=app-text/atril-1.12.0 ~amd64
+
+# required by =mate-base/mate-1.12.0 (argument)
+
+=mate-base/mate-1.12.0 ~amd64
+
+# required by mate-base/caja-1.12.0::rinaldus-overlay[mate]
+
+# required by mate-base/mate-control-center-1.12.0::rinaldus-overlay
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay[base]
+
+# required by @selected
+
+# required by @world (argument)
+
+=x11-themes/mate-icon-theme-1.12.0 ~amd64
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay[extras]
+
+# required by @selected
+
+# required by @world (argument)
+
+=app-editors/pluma-1.12.0 ~amd64
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-extra/mate-media-1.12.0 ~amd64
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-base/mate-panel-1.12.0 ~amd64
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay[base]
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-base/mate-applets-1.12.0 ~amd64
+
+# required by mate-base/mate-settings-daemon-1.12.0::rinaldus-overlay
+
+# required by mate-base/mate-applets-1.12.0::rinaldus-overlay
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay[base]
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-base/libmatekbd-1.12.0 ~amd64
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-base/mate-desktop-1.12.0 ~amd64
+
+# required by mate-extra/mate-media-1.12.0::rinaldus-overlay
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay[base]
+
+# required by @selected
+
+# required by @world (argument)
+
+=media-libs/libmatemixer-1.12.0 ~amd64
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay[extras]
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-extra/mate-power-manager-1.12.0 ~amd64
+
+# required by app-text/atril-1.12.0::rinaldus-overlay[caja]
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay[extras]
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-base/caja-1.12.0 ~amd64
+
+# required by mate-base/mate-panel-1.12.0::rinaldus-overlay
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-base/mate-common-1.12.0 ~amd64
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay[extras]
+
+# required by @selected
+
+# required by @world (argument)
+
+=media-gfx/eom-1.12.0 ~amd64
+
+# required by mate-base/mate-applets-1.12.0::rinaldus-overlay
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay[base]
+
+# required by @selected
+
+# required by @world (argument)
+
+=dev-libs/libmateweather-1.12.0 ~amd64
+
+# required by mate-base/mate-1.12.0::rinaldus-overlay[extras]
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-extra/mate-system-monitor-1.12.0 ~amd64
+
+# required by @selected
+
+# required by @world (argument)
+
+=x11-terms/mate-terminal-1.12.0 ~amd64
+
+# required by @selected
+
+# required by @world (argument)
+
+=mate-extra/mate-screensaver-1.12.0 ~amd64
+
+
+

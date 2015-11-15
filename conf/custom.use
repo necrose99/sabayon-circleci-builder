@@ -1,0 +1,3 @@
+>=mate-base/mate-menus-1.12.0 python
+
+mate-base/mate -extras
