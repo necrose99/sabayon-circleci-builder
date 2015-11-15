@@ -7,11 +7,14 @@ machine:
 dependencies:
   cache_directories:
     - ~/.bosonstate
+    - ~/docker
   override:
-    - if [ -n "$BUILD_ARGS" ]; then docker pull sabayon/builder-amd64; fi
+    - if [[ -e ~/docker/image.tar ]]; then docker load -i ~/docker/image.tar; else docker pull sabayon/builder-amd64; fi
+    - if [ -n "$BUILD_ARGS" ]; then ./scripts/test.sh; fi
+    - mkdir -p ~/docker; docker save sabayon/builder-amd64 > ~/docker/image.tar
 test:
   override:
-    - if [ -n "$BUILD_ARGS" ]; then ./scripts/test.sh; fi
+    - true
 deployment:
   production:
     branch: master

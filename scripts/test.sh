@@ -11,3 +11,5 @@ docker run -e BUILDER_PROFILE -e BUILDER_JOBS -e PRESERVED_REBUILD -e EMERGE_DEF
 		-v "$HOME/$CIRCLE_PROJECT_REPONAME"/conf/custom.mask:/opt/sabayon-build/conf/intel/portage/package.mask/custom.mask \
 		-v "$HOME/$CIRCLE_PROJECT_REPONAME"/conf/custom.use:/opt/sabayon-build/conf/intel/portage/package.use/custom.use \
 		-t sabayon/builder-amd64 $BUILD_ARGS
+
+docker commit $(docker ps -aq | xargs echo | cut -d ' ' -f 1) sabayon/builder-amd64
